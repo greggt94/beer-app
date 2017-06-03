@@ -1,0 +1,27 @@
+.indicators {
+	display: none;
+}
+
+.slider .slides li .caption {
+	top: 8%;
+}
+
+div.slider {
+	height: 615px !important;
+}
+
+ul.slides {
+	height: 615px !important;
+}
+
+/*Mobile Menu*/
+
+.userView {
+	height: 220px;
+}
+
+#mobile-background {
+	width: 100%;
+	height: 220px;
+}
+
