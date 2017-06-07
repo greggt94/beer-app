@@ -1,0 +1,10 @@
+<h1>Users</h1>
+<ul>
+    {{#each cats}}
+        {{#unless this.sleepy}}
+            <li>
+                {{this.name}}
+            </li>
+        {{/unless}}
+    {{/each}}
+</ul>
