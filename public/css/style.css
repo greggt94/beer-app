@@ -14,6 +14,10 @@ ul.slides {
 	height: 615px !important;
 }
 
+.space {
+	padding: 20px;
+}
+
 /*Mobile Menu*/
 
 .userView {

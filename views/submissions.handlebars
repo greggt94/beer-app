@@ -1,0 +1,30 @@
+<div class="container" id="form">
+    <div class="row">
+        <h1 class="center">Beer Rank</h1>
+    </div>
+    <div class="row">
+        <form class="col s12" method="POST" action="/submissions">
+            <div class="row">
+                <div class="input-field col s6">
+                    <input name="beerId" id="beerId" type="text" class="validate">
+                    <label for="beerId">Beer ID</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s6">
+                    <input name="rankId" id="rankId" type="text" class="validate">
+                    <label for="rankId">Rank ID</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <textarea name="comment" id="comment" class="materialize-textarea"></textarea>
+                    <label for="comment">Comments</label>
+                </div>
+            </div>
+            <button class="btn waves-effect waves-light red" type="submit" name="action">Submit
+                <i class="material-icons right">send</i>
+            </button>
+        </form>
+    </div>
+</div>

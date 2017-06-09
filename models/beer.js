@@ -3,8 +3,7 @@ module.exports = function(sequelize, DataTypes) {
     // Giving the Author model a name of type STRING
     breweryId: DataTypes.STRING,
     name: DataTypes.STRING,
-    categoryId: DataTypes.INTEGER,
-    abv: DataTypes.DATE,
+    abv: DataTypes.INTEGER,
   },
       {
         timestamps: false

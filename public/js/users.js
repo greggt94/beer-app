@@ -27,7 +27,7 @@ $(document).ready(function() {
 	        lastName = $("#last_name").val(),
 	        password = $("#password").val(),
 	        email = $("#email").val(),
-	        birthday = $("#date").val();
+	        birthday = $("#birthday").val();
 
 	        console.log(firstName + ' | ' +
 	            lastName + ' | ' +

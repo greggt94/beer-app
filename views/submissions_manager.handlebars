@@ -1,0 +1,20 @@
+<h1 class="center">Submissions</h1>
+<table class="container striped">
+    <thead>
+      <tr>
+          <th>Beer Id</th>
+          <th>Rank ID</th>
+          <th>Comment</th>
+      </tr>
+    </thead>
+
+    <tbody>
+    {{#each Submissions}}
+      <tr>
+        <td>{{beerId}}</td>
+        <td>{{rankId}}</td>
+        <td>{{comment}}</td>
+      </tr>
+    {{/each}}
+    </tbody>
+</table>

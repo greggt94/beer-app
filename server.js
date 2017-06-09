@@ -21,14 +21,16 @@ app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
 // Routes =============================================================
-require("./routes/html-routes.js")(app);
-
+require("./routes/landing.js")(app);
+require("./routes/login.js")(app);
 require("./routes/signup.js")(app);
+require("./routes/beer.js")(app);
+require("./routes/submissions.js")(app);
 
 
 
 // Syncing our sequelize models and then starting our express app
-db.sequelize.sync({ force: true }).then(function() {
+db.sequelize.sync({ force: false }).then(function() {
     app.listen(PORT, function() {
         console.log("App listening on PORT " + PORT);
     });
