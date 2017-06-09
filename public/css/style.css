@@ -1,3 +1,7 @@
+body {
+	background-color: #eeeeee;
+}
+
 .indicators {
 	display: none;
 }
@@ -11,11 +15,26 @@ div.slider {
 }
 
 ul.slides {
-	height: 615px !important;
+	height: 655px !important;
 }
 
 .space {
 	padding: 20px;
+}
+
+#logo {
+	height: 4.5rem;
+	width: 70px;
+}
+
+#main-logo {
+	height: 200px;
+	width: 200px;
+}
+
+hr {
+	height: 0.0000000000001px;
+	width: 0.0000000000001px;
 }
 
 /*Mobile Menu*/
