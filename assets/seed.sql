@@ -7305,7 +7305,7 @@ INSERT INTO beers
 (5911, 10, 'Strawberry', 11,0),
 (5912, 10, 'Satsuma Wit', 11,0),
 (5913, 1422, 'Abhi beer', 7,0),
-(5914, 1423, 'Ambr', 11,0)
+(5914, 1423, 'Ambr', 11,0);
 
 ALTER TABLE users
 ADD COLUMN firstName nvarchar(100),
